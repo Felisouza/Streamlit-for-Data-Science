@@ -1,0 +1,70 @@
+data;categoria;subcategoria;divide;valorFinal
+data;categoria;subcategoria;divide;valor;valorFinal;mes
+2025-04-09;casamento;PIX QRS ROBSON BARR09/04;n?o;-3906.68;-3906.68;April
+2025-04-09;saúde;RSCSS JR COMERCIAL0904;n?o;-199.9;-199.9;April
+2025-04-09;roupas;RSHOP RIACHUELO FI0904;n?o;-269.98;-269.98;April
+2025-04-10;restaurante;RSCSS MP  ESSENCIA1004;n?o;-40.0;-40.0;April
+2025-04-10;restaurante;RSCSS SELECT ITALI1004;n?o;-16.62;-16.62;April
+2025-04-10;mercado;RSCSS JAPAPELARIAM1004;n?o;-6.0;-6.0;April
+2025-04-10;restaurante;RSCSS LuizCarlosMa1004;n?o;-12.0;-12.0;April
+2025-04-10;restaurante;RSCSS Tiago Ribeir1004;n?o;-12.0;-12.0;April
+2025-04-10;restaurante;RSCSS WesleyWilson1004;n?o;-12.0;-12.0;April
+2025-04-10;restaurante;RSCSS ZIG ZIG MORU1004;n?o;-16.0;-16.0;April
+2025-04-10;restaurante;RSCSS MichelleArri1004;n?o;-15.0;-15.0;April
+2025-04-10;restaurante;RSCSS JailtonHenri1004;n?o;-6.0;-6.0;April
+2025-04-11;restaurante;RSCSS-BERLIN *IRA-11/04;n?o;-43.21;-43.21;April
+2025-04-11;restaurante;RSCSS SELECT ITALI1104;n?o;-20.98;-20.98;April
+2025-04-11;restaurante;RSHOP AMAZO COZINH1104;n?o;-771.79;-771.79;April
+2025-04-14;carro;PIX TRANSF Felipe 14/04;n?o;-200.0;-200.0;April
+2025-04-14;reserva;TBI 6369.28614-8;n?o;-600.0;-600.0;April
+2025-04-14;reserva;PIX TRANSF Felipe 14/04;n?o;-0.01;-0.01;April
+2025-04-14;reserva;PIX TRANSF Felipe 14/04;n?o;-1.0;-1.0;April
+2025-04-14;restaurante;RSCSS ESPETARIA MA1404;n?o;-24.4;-24.4;April
+2025-04-14;restaurante;RSCSS DOCE ACHADO 1404;n?o;-7.5;-7.5;April
+2025-04-14;restaurante;PIX QRS ESPETARIA M12/04;n?o;-22.9;-22.9;April
+2025-04-14;restaurante;RSHOP PIZZARIA REI1304;n?o;-47.0;-47.0;April
+2025-04-14;restaurante;RSCSS MP  LUCASBRU1304;n?o;-24.0;-24.0;April
+2025-04-14;restaurante;RSCSS MP  CHAMANAL1304;n?o;-10.0;-10.0;April
+2025-04-14;restaurante;RSCSS LEANDRO SANT1304;n?o;-8.0;-8.0;April
+2025-04-14;restaurante;RSCSS ESCARC      1204;n?o;-98.49;-98.49;April
+2025-04-14;restaurante;RSCSS OLD BAR E RE1204;n?o;-13.0;-13.0;April
+2025-04-14;restaurante;PIX QRS ZAPIZI12/04;n?o;-22.0;-22.0;April
+2025-04-14;restaurante;RSCSS LIZLAINNE OM1204;n?o;-98.0;-98.0;April
+2025-04-14;restaurante;RSCSS SELECT ITALI1204;n?o;-19.98;-19.98;April
+2025-04-22;restaurante;RSHOP V3J010      2004;n?o;-139.7;-139.7;April
+2025-04-22;restaurante;RSCSS SELECT ITALI2004;n?o;-16.48;-16.48;April
+subcategoria;divide;valor;valorFinal;mes;;
+PIX QRS ROBSON BARR09/04;n?o;-3906.68;-3906.68;April;;
+RSCSS JR COMERCIAL0904;n?o;-199.9;-199.9;April;;
+RSHOP RIACHUELO FI0904;n?o;-269.98;-269.98;April;;
+RSCSS MP  ESSENCIA1004;n?o;-40.0;-40.0;April;;
+RSCSS SELECT ITALI1004;n?o;-16.62;-16.62;April;;
+RSCSS JAPAPELARIAM1004;n?o;-6.0;-6.0;April;;
+RSCSS LuizCarlosMa1004;n?o;-12.0;-12.0;April;;
+RSCSS Tiago Ribeir1004;n?o;-12.0;-12.0;April;;
+RSCSS WesleyWilson1004;n?o;-12.0;-12.0;April;;
+RSCSS ZIG ZIG MORU1004;n?o;-16.0;-16.0;April;;
+RSCSS MichelleArri1004;n?o;-15.0;-15.0;April;;
+RSCSS JailtonHenri1004;n?o;-6.0;-6.0;April;;
+RSCSS-BERLIN *IRA-11/04;n?o;-43.21;-43.21;April;;
+RSCSS SELECT ITALI1104;n?o;-20.98;-20.98;April;;
+RSHOP AMAZO COZINH1104;n?o;-771.79;-771.79;April;;
+PIX TRANSF Felipe 14/04;n?o;-200.0;-200.0;April;;
+TBI 6369.28614-8;n?o;-600.0;-600.0;April;;
+PIX TRANSF Felipe 14/04;n?o;-0.01;-0.01;April;;
+PIX TRANSF Felipe 14/04;n?o;-1.0;-1.0;April;;
+RSCSS ESPETARIA MA1404;n?o;-24.4;-24.4;April;;
+RSCSS DOCE ACHADO 1404;n?o;-7.5;-7.5;April;;
+PIX QRS ESPETARIA M12/04;n?o;-22.9;-22.9;April;;
+RSHOP PIZZARIA REI1304;n?o;-47.0;-47.0;April;;
+RSCSS MP  LUCASBRU1304;n?o;-24.0;-24.0;April;;
+RSCSS MP  CHAMANAL1304;n?o;-10.0;-10.0;April;;
+RSCSS LEANDRO SANT1304;n?o;-8.0;-8.0;April;;
+RSCSS ESCARC      1204;n?o;-98.49;-98.49;April;;
+RSCSS OLD BAR E RE1204;n?o;-13.0;-13.0;April;;
+PIX QRS ZAPIZI12/04;n?o;-22.0;-22.0;April;;
+RSCSS LIZLAINNE OM1204;n?o;-98.0;-98.0;April;;
+RSCSS SELECT ITALI1204;n?o;-19.98;-19.98;April;;
+RSHOP V3J010      2004;n?o;-139.7;-139.7;April;;
+RSCSS SELECT ITALI2004;n?o;-16.48;-16.48;April;;
+2025-04-09 00:00:00;casamento;PIX QRS ROBSON BARR09/04;n?o;-906.68;-906.68;April
