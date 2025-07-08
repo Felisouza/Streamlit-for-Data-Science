@@ -11,27 +11,10 @@ import streamlit as st
 
 def LimpaDados(df):
     if df == None:
+        st.write('estou aqui')
         df = pd.DataFrame()
     else:
-        # # Leitura da base crua
-
-        # In[2]:
-
-
-        # Carregar arquivo Excel
-        # arquivo = "./Fatura-Excel.xls" 
-        
-
-        # df.head()
-
-
-        # # Limpeza dos dados
-
-        # ## Drop colunas
-
-        # In[3]:
-
-
+        st.write(df)
         df.drop(columns='Unnamed: 2', inplace=True)
         df.head()
         
