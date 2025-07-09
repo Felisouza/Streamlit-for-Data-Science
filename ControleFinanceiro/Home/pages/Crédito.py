@@ -15,6 +15,7 @@ from LimpaDados import LimpaDados
 # Adiciona o caminho do Utils
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
 from lottie_animation import load_lottieUrl
+from st_aggrid import AgGrid
 
 # caminho = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils'))
 
@@ -37,9 +38,20 @@ st.markdown("<h2 style='text-align: center; color: white;'> Insira a fatura atua
 # Inserir nova fatura
 arquivo = uploadFile()
 
-# Limpa os dados
-df = LimpaDados(df=arquivo)
-st.write(arquivo)
+import pandas as pd
+import streamlit as st
+
+# Processamento do arquivo
+if arquivo is not None:
+    df = LimpaDados(arquivo)
+    response = AgGrid(df, editable=True)
+    df_editable = response["data"]
+    st.write("Df Editado")
+    st.dataframe(df_editable)
+else:
+    st.info("🔍 Aguardando envio do arquivo...")
+
+
 
 # botaoDatas()
 # listaGastos(df=df)

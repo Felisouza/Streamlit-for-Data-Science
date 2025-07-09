@@ -10,15 +10,7 @@ import pandas as pd
 import streamlit as st
 
 def LimpaDados(df):
-    if df == None:
-        st.write('estou aqui')
-        df = pd.DataFrame()
-    else:
-        st.write(df)
         df.drop(columns='Unnamed: 2', inplace=True)
-        df.head()
-        
-
 
         # ## Renomeia colunas
 

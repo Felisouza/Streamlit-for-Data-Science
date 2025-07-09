@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f27b11d-baf0-47ea-a199-4ae75fdbbc36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ControleFinanceiro/Home/pages/Crédito.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleFinanceiro/Home/utils/lottie_animation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottie_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/LimpaDados.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/LimpaDados.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/LimpaDados.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/LimpaDados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/Home/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/Home/home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/Home/pages/pagina.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/Home/pages/Crédito.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/Home/pages/Crédito.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/Home/testes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/Home/testes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,8 @@
       <workItem from="1751487486949" duration="478000" />
       <workItem from="1751584143218" duration="1630000" />
       <workItem from="1751585802150" duration="3765000" />
-      <workItem from="1751938625638" duration="5224000" />
+      <workItem from="1751938625638" duration="8653000" />
+      <workItem from="1752027698753" duration="2493000" />
     </task>
     <servers />
   </component>
