@@ -2,21 +2,21 @@
 # coding: utf-8
 
 # # Libs
-
-# In[1]:
-
-
 import pandas as pd
 import streamlit as st
+import re
 
+# Função REGEX
+def limparNmGasto(col):
+    # Se terminar com caracteres não alfabéticos, remove-os do final
+    return re.sub(r'[^a-zA-ZÀ-ÿ\s]+$', '', col)
+
+
+#Função principal de limpeza dos dados
 def LimpaDados(df):
         df.drop(columns='Unnamed: 2', inplace=True)
 
         # ## Renomeia colunas
-
-        # In[4]:
-
-
         NomesColunas = {
             0:'Data'
             , 1: 'NmGasto'
@@ -28,28 +28,13 @@ def LimpaDados(df):
 
 
         # ## Retirando NaN
-
-        # In[5]:
-
-
         df_SemNulo = df[(~df['Valor'].isnull()) & (~df['Data'].isnull())].reset_index(drop=True)
 
-
-        # In[7]:
-
-
         df_SemNulo[df_SemNulo['Valor'].isnull()]
-        # print(df_SemNulo)
-        
-
 
         # ## Selecionando os valores verdadeiros
 
         # ## Limpa data
-
-        # In[9]:
-
-
         # Expressão regular para encontrar datas no formato dd/mm/yyyy
         padrao_data = r"^\d{2}/\d{2}/\d{4}$"
 
@@ -57,29 +42,7 @@ def LimpaDados(df):
         filtro = df_SemNulo["Data"].astype(str).str.match(padrao_data)
         df_Union = df_SemNulo[filtro].reset_index(drop=True)
 
-        # df_Union.head()
+        # Aplica a função à coluna
+        df_Union['NmGasto'] = df_Union['NmGasto'].apply(limparNmGasto)
 
-
-        # ## Retira total
-
-        
-
-
-        # df_Union['Valor'].sum()
-
-
-        # # Check base
-
-        # In[16]:
-
-
-        # df_Union.info()
-
-
-        # In[19]:
-
-
-        # df_Union.describe()
-
-        # print("Estou aqui Agora"*100)
         return df_Union
