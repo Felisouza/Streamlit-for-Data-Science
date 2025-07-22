@@ -6,6 +6,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_plotly_events import plotly_events
+import pickle
 
 # Adiciona o caminho do diretório onde está o módulo
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'CartaoDeCredito')))
@@ -16,6 +17,8 @@ from LimpaDados import LimpaDados
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
 from lottie_animation import load_lottieUrl
 from st_aggrid import AgGrid
+
+
 
 # caminho = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils'))
 
@@ -38,18 +41,23 @@ st.markdown("<h2 style='text-align: center; color: white;'> Insira a fatura atua
 # Inserir nova fatura
 arquivo = uploadFile()
 
-import pandas as pd
-import streamlit as st
 
 # Processamento do arquivo
 if arquivo is not None:
     df = LimpaDados(arquivo)
-    df['Tipo'] = ''
+
+    # Modelo random forest
+    caminho_atual = os.getcwd()
+    caminho_modelo = os.path.abspath(os.path.join(caminho_atual, 'CartaoDeCredito\modelos')) + "\RandomForest.pkl"
+    with open(caminho_modelo, 'rb') as arquivo:  # 'rb' = read binary
+        modelo = pickle.load(arquivo)
+    df['Tipo'] = modelo.predict(df['NmGasto'])
     df['Dono'] = ''
+
 
     response = AgGrid(df, editable=True)
     df_editable = response["data"]
-    st.write("Df Editado")
+    st.write("DF Editado")
     st.dataframe(df_editable)
 else:
     st.info("🔍 Aguardando envio do arquivo...")
