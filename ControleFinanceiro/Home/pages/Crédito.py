@@ -44,6 +44,9 @@ import streamlit as st
 # Processamento do arquivo
 if arquivo is not None:
     df = LimpaDados(arquivo)
+    df['Tipo'] = ''
+    df['Dono'] = ''
+
     response = AgGrid(df, editable=True)
     df_editable = response["data"]
     st.write("Df Editado")
