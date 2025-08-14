@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f27b11d-baf0-47ea-a199-4ae75fdbbc36" name="Changes" comment="">
+    <list default="true" id="3f27b11d-baf0-47ea-a199-4ae75fdbbc36" name="Changes" comment="RandomForest finalmente implementado!">
+      <change afterPath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/cartoes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_sentimental_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testeAltair.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/RandomForest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/modelos/RandomForest.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/modelos/RandomForest.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/DashCartaoCredito.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/CartaoDeCredito/DashCartaoCredito.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/Home/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/Home/home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControleFinanceiro/Home/pages/Crédito.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/Home/pages/Crédito.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiro/dashboardTestes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiro/dashboardTestes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +49,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/feh_s/Streamlit-for-Data-Science/ControleFinanceiro/Home/pages",
+    "last_opened_file_path": "C:/Users/feh_s/Streamlit-for-Data-Science",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,8 +67,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
-        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -81,12 +84,25 @@
       <workItem from="1751584143218" duration="1630000" />
       <workItem from="1751585802150" duration="3765000" />
       <workItem from="1751938625638" duration="8653000" />
-      <workItem from="1752027698753" duration="45221000" />
+      <workItem from="1752027698753" duration="45600000" />
     </task>
+    <task id="LOCAL-00001" summary="RandomForest finalmente implementado!">
+      <option name="closed" value="true" />
+      <created>1753156142233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753156142233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RandomForest finalmente implementado!" />
+    <option name="LAST_COMMIT_MESSAGE" value="RandomForest finalmente implementado!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -59,6 +59,7 @@ if arquivo is not None:
     df_editable = response["data"]
     st.write("DF Editado")
     st.dataframe(df_editable)
+    st.button('Enviar dados')
 else:
     st.info("🔍 Aguardando envio do arquivo...")
 
